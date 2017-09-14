@@ -16,7 +16,7 @@ def convertToBFS(line):
     fields = line.split()
     heroID = int(fields[0])
     connections = []
-    
+
     for connection in fields[1:]:
         connections.append(int(connection))
 
